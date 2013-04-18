@@ -1,0 +1,20 @@
+{
+  "name": "bitcoin-pool",
+  "version": "0.0.1",
+  "description": "An extensible Bitcoin pool server implementation",
+  "keywords": ["bitcoin", "pool", "mining"],
+  "author": "Daniel Vicory <dvicory@gmail.com> (http://bzfx.net)",
+  "maintainers": "Daniel Vicory <dvicory@gmail.com> (http://bzfx.net)",
+  "bin": "./index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dvicory/bitcoin-pool.git"
+  },
+  "main": "index",
+  "engines": {
+    "node": ">= 0.9.0"
+  },
+  "dependencies": {
+    "jayson": "git://github.com/dvicory/jayson.git#54d8c3c30f"
+  }
+}
